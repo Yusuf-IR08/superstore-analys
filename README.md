@@ -69,13 +69,13 @@ Forecasting dilakukan untuk Total Sales Bulanan menggunakan metode Holt-Winters.
 Alur Forecasting:
 1. Agregasi data menjadi penjualan bulanan
 2. Train–test split berbasis waktu
-  * Train: 2014–2016
-  * Test: 2017
+   * Train: 2014–2016
+   * Test: 2017
 3. Penerapan Holt-Winters (Additive Trend & Seasonality)
 4. Evaluasi model menggunakan:
-- MAPE
+   * MAPE
 5. Hasil Evaluasi:
-- MAPE ≈ 22%
+   * MAPE ≈ 22%
 
 Model mampu menangkap tren dan pola musiman, namun masih memiliki deviasi pada periode dengan fluktuasi tinggi
 Model dinilai cukup layak (acceptable) sebagai baseline forecasting
